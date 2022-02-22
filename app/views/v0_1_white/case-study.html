@@ -1,0 +1,117 @@
+{% extends "layout-with-search.html" %}
+
+{% block pageTitle %}
+T Levels - Employer Support
+{% endblock %}
+
+{% block content %}
+<main role="main"></main>
+<div class="govuk-width-container ">
+  <!-- Phase banner -->
+  <div class="govuk-phase-banner tl-phase-banner tl-phase-banner--home">
+      <p class="govuk-phase-banner__content">
+          <a href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback-button">
+              <strong class="govuk-tag govuk-phase-banner__content__tag">
+                  Give feedback
+              </strong>
+          </a>
+          <span class="govuk-phase-banner__text">
+              This is a new service - <a class="govuk-link" href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback">help us to improve it</a>
+          </span>
+      </p>
+  </div>
+</div>
+
+<main id="main-content" role="main">
+    <!-- Search Hero -->
+    <div class="container" style="width: 320px; margin: 0 auto;">
+        <div class="row-full">
+
+    <div class="tl-hero tl-hero--minimal">
+        <div class="govuk-width-container">
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-one-half">
+
+                    <div id="tl-breadcrumbs--category">
+                        <div class="tl-breadcrumbs">
+                            <ol class="breadcrumbs">
+  
+                                <a href="start" class="govuk-link">Home</a>
+</ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="govuk-grid-column-one-half tl-text--right govuk-!-margin-top-1">
+                    <div class="tl-form-group tl-search--container tl-search--home tl-search--home--minimal" id="tl-search--category">
+
+                        <div class="tl-search--error tl-hidden">
+                            <span class="tl-error--message"></span>
+                        </div>
+                        <form role="search" class="tl-search" data-search="" action="/hc/en-gb/search" accept-charset="UTF-8" method="get">
+                            <input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search for support" aria-label="Search for support">
+                            <input type="hidden" name="filter_by" value="knowledge_base">
+                            <input type="submit" name="commit" value="Search">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   </div>
+
+
+    <!-- Page Content -->      
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+            <h1 class="govuk-heading-l">
+              <span class="govuk-caption-l">Collection</span>
+              Technology case studies
+            </h1>
+      </div>
+        </div>
+        
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body-l">Case studies showing how organisations have used best practice guidance to meet their changing technology needs.</p>
+      
+        <br>
+
+      <section> 
+      <hr>  
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <br>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <p class="govuk-body-s">Last updated</p>
+            </div>
+            <div class="govuk-grid-column-one-half">
+            <p class="govuk-body-s"> 17 April 2021, 
+              <a href="https://support.tlevels.gov.uk/hc/en-gb">see all updates</a></p> 
+            </div>
+          </div>            
+        </div>
+      </div>
+    </section>     
+        
+
+    
+      </div>
+    </div>
+
+     <!-- Sign in one third column -->  
+            <div class="govuk-grid-column-one-third">
+
+
+            </div>
+        </div>
+    </div>
+</main>
+</main>
+
+
+{% endblock %}
