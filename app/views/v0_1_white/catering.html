@@ -1,0 +1,189 @@
+{% extends "layout-with-search.html" %}
+
+{% block pageTitle %}
+T Levels - Employer Support
+{% endblock %}
+
+{% block content %}
+<main role="main">
+<div class="govuk-width-container ">
+  <!-- Phase banner -->
+  <div class="govuk-phase-banner tl-phase-banner tl-phase-banner--home">
+      <p class="govuk-phase-banner__content">
+          <a href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback-button">
+              <strong class="govuk-tag govuk-phase-banner__content__tag">
+                  Give feedback
+              </strong>
+          </a>
+          <span class="govuk-phase-banner__text">
+              This is a new service - <a class="govuk-link" href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback">help us to improve it</a>
+          </span>
+      </p>
+  </div>
+</div>
+</main>
+
+<main id="main-content" role="main"> 
+   <!-- Search Hero -->
+   <div class="container" style="width: 320px; margin: 0 auto;">
+    <div class="row-full">
+
+<div class="tl-hero tl-hero--minimal">
+    <div class="govuk-width-container">
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+
+                <div id="tl-breadcrumbs--category">
+                    <div class="tl-breadcrumbs">
+                        <ol class="breadcrumbs">
+
+                            <a href="start" class="govuk-link">Home</a>
+</ol>
+
+                    </div>
+                </div>
+            </div>
+            <div class="govuk-grid-column-one-half tl-text--right govuk-!-margin-top-1">
+                <div class="tl-form-group tl-search--container tl-search--home tl-search--home--minimal" id="tl-search--category">
+
+                    <div class="tl-search--error tl-hidden">
+                        <span class="tl-error--message"></span>
+                    </div>
+                    <form role="search" class="tl-search" data-search="" action="/hc/en-gb/search" accept-charset="UTF-8" method="get">
+                        <input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search for support" aria-label="Search for support">
+                        <input type="hidden" name="filter_by" value="knowledge_base">
+                        <input type="submit" name="commit" value="Search">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!-- Page Content -->      
+<div class="govuk-width-container">
+  <div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+    <h1 class="govuk-heading-l">
+      <span class="govuk-caption-l">Skill areas and courses</span>
+      Catering courses
+    </h1>
+
+    <p class="govuk-body-l">Course outline and case studies for catering courses.</p>
+
+    <section> 
+      <hr>  
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <br>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-quarter">
+              <p class="govuk-body-s">Published</p>
+              <p class="govuk-body-s">Last updated</p>
+            </div>
+            <div class="govuk-grid-column-two-quarters">
+            <p class="govuk-body-s">17 April 2021</p>
+           <p class="govuk-body-s"> 22 April 2021, 
+              <a href="https://support.tlevels.gov.uk/hc/en-gb">see all updates</a></p> 
+            </div>                    
+          </div>           
+
+    </section>  
+    <hr> 
+</div>
+
+
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3uQx7BSUGas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br>
+<p class="govuk-body">You can offer Catering industry placements now. Catering T Levels will be available in these areas:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>Baker</li>
+  <li>Chef de Partie</li>
+  <li>Commis Chef</li>
+  <li>Pastry and Confectionary Chef</li>
+  <li>Production Chef</li>
+  <li>Senior Production Chef</li>
+</ul>
+
+  <h2 class="govuk-heading-m">Catering case studies</h2>
+
+  <p class="govuk-body">Learn about students developing catering skills in the adult care sector. </p>
+
+  <hr class="govuk-section-break govuk-section-break--visible">
+  <br>
+  <h3 class="govuk-heading-s"><a href="case-study-catering" class="govuk-link">Written case study - Bupa Sandhills Court</a></h3>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <p class="govuk-body-s">17 April 2021</p>
+    </div>
+    <div class="govuk-grid-column-one-quarter">
+    <p class="govuk-body-s">Case study</p>
+    </div>                    
+  </div>  
+   
+  <hr class="govuk-section-break govuk-section-break--visible">
+  <br>
+  <h3 class="govuk-heading-s"><a href="#" class="govuk-link">Podcast case study - Shelton's Coffee (catering)</a></h3>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <p class="govuk-body-s">20 April 2021</p>
+    </div>
+    <div class="govuk-grid-column-one-quarter">
+    <p class="govuk-body-s">Case study</p>
+    </div>                    
+  </div>         
+  <hr class="govuk-section-break govuk-section-break--visible">
+
+
+<!-- <p class="govuk-body-s">Published 17 April 2021</p> -->
+</div>
+
+<div class="govuk-grid-column-one-third">
+
+  <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
+
+  <!--<aside class="app-related-items" role="complementary">
+    <h3 class="govuk-heading-s" id="subsection-title">
+      Related content
+    </h3>
+    <nav role="navigation" aria-labelledby="subsection-title">
+      <ul class="govuk-list govuk-!-font-size-16">
+        <li>
+          <a class="govuk-link" href="#">
+            Catering courses
+          </a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#">
+            Podcast case study
+          </a>
+        </li>
+        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+        <p class="govuk-body-s">Collection</p>
+        <li>
+          <a class="govuk-link" href="#">
+            Catering case studies
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+</div>
+</div>
+
+</div> -->
+
+   
+
+
+
+{% endblock %}

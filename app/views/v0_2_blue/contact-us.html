@@ -1,0 +1,163 @@
+{% extends "layout-with-search-new-name.html" %}
+
+{% block pageTitle %}
+T Levels and industry placement support for employers
+{% endblock %}
+
+{% block content %}
+<main role="main">
+<div class="govuk-width-container ">
+  <!-- Phase banner -->
+  <div class="govuk-phase-banner tl-phase-banner tl-phase-banner--home">
+      <p class="govuk-phase-banner__content">
+          <a href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback-button">
+              <strong class="govuk-tag govuk-phase-banner__content__tag">
+                  Give feedback
+              </strong>
+          </a>
+          <span class="govuk-phase-banner__text">
+              This is a new service - <a class="govuk-link" href="https://www.smartsurvey.co.uk/s/VXHHIQ/" id="tl-header--feedback">help us to improve it</a>
+          </span>
+      </p>
+  </div>
+</div>
+
+
+    <!-- Page Content -->
+    <div class="govuk-width-container">
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-one-half govuk-!-margin-top-5">
+              <a href="start" class="govuk-link">Home</a>
+          </div>
+      </div>
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds govuk-!-margin-top-9">
+                <h1 class="govuk-heading-xl"><span class="tl-nowrap">Contact us</span><h1>
+                
+                <p class="govuk-body-m">Use this form to contact us about industry placements. You can usually expect a reply within 2 working days.</p>
+                <p class="govuk-body-m">Alternatively, you can call us on <strong>0800 150 600</strong> (choose option 4). Phone lines are open 8am to 8pm, Monday to Friday.</p>
+                
+
+     <!-- Contact Form - Your details-->    
+     <h2 class="govuk-heading-l">Your details</h2>
+    
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="first-name">
+          Name 
+        </label>
+        <input class="govuk-input govuk-!-width-two-thirds" id="first-name" name="first-name" type="text">
+      </div> 
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="email-address">
+          Email address 
+        </label>
+        <input class="govuk-input govuk-!-width-two-thirds" id="email-address" name="email-address" type="text">
+      </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="phone-number">
+            Phone number
+          </label>
+          <input class="govuk-input govuk-!-width-two-thirds" id="phone-number" name="phone-number" type="text">
+        </div>
+
+        <div class="form-group govuk-!-margin-bottom-5">
+          <div><label class="govuk-label" for="EnquirySource">How would you prefer to be contacted?</label></div>
+          <select data-val="true" data-val-required="Please select what has prompted you to make an enquiry?" id="EnquirySource" name="EnquirySource"><option selected="selected" value="">Please select</option>
+  <option value="I’m ready to offer a placement">Phone</option>
+  <option value="I have a question">Email</option>
+  </select>
+          <span class="field-validation-valid" data-valmsg-for="EnquirySource" data-valmsg-replace="true" aria-live="polite"></span>
+      </div> 
+
+ <h2 class="govuk-heading-l">Company details</h2>
+
+      <div class="govuk-form-group">
+          <div class="govuk-form-group">
+            <label class="govuk-label" for="organisation-address">
+              Company name
+            </label>
+            <input class="govuk-input govuk-!-width-two-thirds" id="organisation-address" name="organisation-address" type="text">
+          </div>
+
+           <!-- <div class="govuk-form-group">
+              <label class="govuk-label" for="address-postcode">
+                Enter your postcode or start typing address
+              </label>
+              <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text" autocomplete="postal-code">
+              <br>
+              <p class="govuk-body-s govuk-!-padding-top-3" ><a href="https" class="govuk-link">Or enter address manually</a></p>
+             </div>
+
+             <div class="govuk-form-group">
+              <label class="govuk-label" for="address">
+                Address
+              </label>
+              <input class="govuk-input govuk-!-width-two-thirds govuk-!-margin-bottom-3" id="address" name="address" type="text">
+              <input class="govuk-input govuk-!-width-two-thirds govuk-!-margin-bottom-3" id="address" name="address" type="text">
+              <input class="govuk-input govuk-!-width-two-thirds govuk-!-margin-bottom-3" id="address" name="address" type="text">
+              <input class="govuk-input govuk-!-width-two-thirds govuk-!-margin-bottom-3" id="address" name="address" type="text">
+           
+                <label class="govuk-label" for="address-postcode">
+                  Postcode
+                </label>
+                <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text" autocomplete="postal-code">          
+            </div> -->
+
+        <div class="form-group govuk-!-margin-bottom-7">
+            <div><label class="govuk-label" for="EmployeesCount">Total number of employees (optional)</label></div>
+           <select data-val="true" data-val-required="Please select total number of employees or if you don't know then please select don't know" id="EmployeesCount" name="EmployeesCount"><option selected="selected" value="">Please select</option>
+             <option value="1-9">1-9 (Micro)</option>
+             <option value="10-49">10-49 (Small)</option>
+             <option value="50-249">50-249 (Medium)</option>
+             <option value="250+">250+ (Large)</option>
+           </select>
+                <span class="field-validation-valid" data-valmsg-for="EmployeesCount" data-valmsg-replace="true" aria-live="polite"></span>
+            </div>
+              
+      <h2 class="govuk-heading-l">Your message</h2>
+
+           <div class="form-group govuk-!-margin-bottom-3">
+              <div><label class="govuk-label" for="EnquirySource">What would you like to talk to us about?</label></div>
+              <select data-val="true" data-val-required="Please select what has prompted you to make an enquiry?" id="EnquirySource" name="EnquirySource"><option selected="selected" value="">Please select</option>
+      <option value="I’m ready to offer a placement">I’m ready to offer an industry placement</option>
+      <option value="I have a question">I need more information</option>
+      </select>
+              <span class="field-validation-valid" data-valmsg-for="EnquirySource" data-valmsg-replace="true" aria-live="polite"></span>
+          </div> 
+
+              <div class="govuk-form-group">
+                <label class="govuk-label" for="more-detail">
+                  Enter any additional information (optional)
+                </label>
+                <textarea class="govuk-textarea govuk-!-width-three-quarters" id="more-detail" name="more-detail" rows="5"></textarea>
+              </div>
+
+              <div class="govuk-form-group govuk-!-margin-top-5">
+                <fieldset class="govuk-fieldset">
+                  <div class="govuk-checkboxes govuk-checkboxes--small">
+                    <div class="govuk-checkboxes__item">
+                      <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+                      <label class="govuk-label govuk-checkboxes__label" for="organisation">
+                        By checking this box you confirm that you consent to the Department for Education processing and storing your data for the purposes described in the <a href="#" class="govuk-link">privacy notice</a>.
+                      </label>
+                    </div>
+                  </div>
+              
+                 
+                </fieldset>
+              </div>
+<br>
+            <a href="contact-us-confirmation.html" role="button" draggable="false" class="govuk-button " data-module="govuk-button">
+              Send message</a>
+
+    </fieldset>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+{% endblock %}

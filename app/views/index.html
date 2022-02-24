@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+T Levels and industry placement support for employers
+{% endblock %}
+
+{% block content %}
+
+
+      <h1 class="govuk-heading-xl">
+        T Levels and industry placement support for employers
+        <span class="govuk-caption-xl govuk-!-margin-top-4">GDS Kit {{releaseVersion}}</span>
+      </h1>{{releaseVersion | log }}
+      <p>
+        Welcome on the T Levels and industry placement support for employers prototype. You can view any version of the prototype by choosing which version you're looking for and clicking on its link.
+      </p>
+      <p>The current version is <b>0.2</b>. It is currently <b>in progress</b>.</p>
+      <p>This prototype is <b>for testing purposes only.</b></p>
+    <!--  <a href="v0_1/start.html" role="button" draggable="false" class="govuk-button govuk-button--start" data-module="govuk-button">
+        Start the prototype
+        <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+        </svg></a> -->
+        
+<!--  TEMPLATE FOR NEW VERSION
+  <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="row">0.5</th>
+              <td class="govuk-table__cell ">
+                <ul class="govuk-list govuk-list--bullet">
+                  <li>Testing session (week of 10/01)</li>
+                  <li>New UX Designer in control</li>
+                </ul>
+              </td>
+              <td class="govuk-table__cell ">
+                <a href="/v0.5/" title="Statement version 2" role="link">Start page - prepopulated</a><br>
+                <a href="/v0.5/intro-no-saved" title="Statement version 2" role="link">Start page - no saved decl.</a><br>
+                <a href="/v0.5/userjourney" title="user journey" role="link">Quick links</a>
+              </td>
+              <td class="govuk-table__cell ">
+                In development
+            </td>
+            </tr>
+          -->
+
+
+      <h2 class="govuk-heading-m">Version history</h2>
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header" scope="col">Version</th>
+            <th class="govuk-table__header" scope="col">Changelog</th>
+            <th class="govuk-table__header" scope="col">Links</th>
+            <th class="govuk-table__header" scope="col">Status</th>
+          </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="row">0.2</th>
+              <td class="govuk-table__cell ">
+                <ul class="govuk-list govuk-list--bullet">
+                  <li>Insights from UR fed into prototype</li>
+                  <li>Updates to contact us form</li>
+                  <li>New service name in use</li>
+                </ul>
+              </td>
+              <td class="govuk-table__cell ">
+                <a href="v0_2_white/start.html" title="Statement version 2" role="link">Homepage - white</a><br>
+                <a href="v0_2_blue/start.html" title="user journey" role="link">Homepage - dark blue</a>
+              </td>
+              <td class="govuk-table__cell ">
+                In progress
+            </td>
+            </tr>
+
+            </tr>    
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header" scope="row">0.1</th>
+            <td class="govuk-table__cell ">
+              <ul class="govuk-list govuk-list--bullet">
+                <li>Initial release</li>
+                <li>Using draft IA</li>
+                <li>catering case study</li>
+              </ul>
+            </td>
+            <td class="govuk-table__cell ">
+              <ul class="govuk-list ">
+                <li><a href="v0_1_blue/start.html" title="Statement version one" role="link">Homepage v1 - blue</a></li>
+                <li><a href="v0_1_white/start.html" title="Statement version one" role="link">Homepage v2 - white</a></li>
+            </ul>
+            </td>
+
+            <td class="govuk-table__cell ">
+              In development
+          </td>
+          </tr>
+                      
+          
+      </table>
+
+{% endblock %}

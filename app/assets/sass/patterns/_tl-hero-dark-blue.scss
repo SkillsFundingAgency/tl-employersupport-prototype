@@ -1,0 +1,36 @@
+// service manual banner pattern
+
+.tl-hero-dark-blue {
+  background-color: #003a69;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  @media (
+    min-width: 40.0625em) {
+    .tl-hero-dark-blue {
+      padding-top: 40px; } } 
+  @media (
+    min-width: 40.0625em) {
+    .tl-hero-dark-blue {
+      padding-bottom: 40px; } }
+  .tl-hero-dark-blue * {
+    color: #ffffff; }
+  .tl-hero-dark-blue .govuk-link, .tl-hero .tl-search--pagination ul li a, .tl-search--pagination ul li .tl-hero a, .tl-hero .tl-community--pagination ul li a, .tl-community--pagination ul li .tl-hero a, .tl-hero .tl-article--vote .tl-article--vote--button, .tl-article--vote .tl-hero .tl-article--vote--button, .tl-hero .tl-article--content a, .tl-article--content .tl-hero a, .tl-hero .tl-community--post--content a, .tl-community--post--content .tl-hero a, .tl-hero .tl-community--comment--actions button, .tl-community--comment--actions .tl-hero button, .tl-hero .tl-community--post--actions button, .tl-community--post--actions .tl-hero button {
+    color: #ffffff; }
+  .tl-hero-dark-blue .govuk-details__summary:focus .govuk-details__summary-text {
+    color: #0b0c0c; }
+  .tl-hero-dark-blue .tl-breadcrumbs li:before {
+    border-color: #ffffff; }
+  .tl-hero-dark-blue .tl-breadcrumbs * {
+    color: #ffffff !important; }
+  .tl-hero--minimal {
+    padding-bottom: 10px;
+    padding-top: 10px; }
+    @media (min-width: 40.0625em) {
+      .tl-hero--minimal {
+        padding-bottom: 10px; } }
+    @media (min-width: 40.0625em) {
+      .tl-hero--minimal {
+        padding-top: 10px; } }
+    .tl-hero--minimal .tl-search--error {
+      text-align: left; }
